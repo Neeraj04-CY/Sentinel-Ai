@@ -1,62 +1,58 @@
--SentinelAI
+🚨 SentinelAI
 AI Operations Command Center
-🧠 Overview
 
-SentinelAI is an autonomous AI decision system designed to monitor operational data, detect risk, and execute explainable, governed actions using a multi-agent architecture.
+Autonomous, Explainable, Governed Decision Intelligence
 
-Not a dashboard.
-A command interface for AI-driven operations.
+🔹 Overview
 
-🎯 What SentinelAI Solves
-Question	SentinelAI Answer
-Is something wrong?	Risk detection & anomaly analysis
-How bad is it?	Severity scoring with confidence
+SentinelAI is a production-style AI system that monitors operational data, detects risk, and executes explainable actions using a multi-agent decision architecture.
+
+It is designed as a command interface, not a dashboard.
+
+❓ What Problem Does It Solve?
+Question	SentinelAI Provides
+Is something wrong?	Risk & anomaly detection
+How severe is it?	Confidence-based scoring
 Why is it happening?	Explainable multi-agent reasoning
-What should we do?	Action recommendations
-What was decided?	Execution audit trail
+What should be done?	Action recommendations
+What was executed?	Auditable decision logs
 🏗️ System Flow
-Mission Brief  
-   ↓  
-Intelligence Analysis  
-   ↓  
-Risk Assessment  
-   ↓  
-Action Planning  
-   ↓  
+Mission Brief
+      ↓
+Intelligence Analysis
+      ↓
+Risk Assessment
+      ↓
+Action Planning
+      ↓
 Execution & Audit
 
 ⚙️ Core Capabilities
-
-📊 Operational anomaly detection
-
-🧩 Multi-agent decision reasoning
-
-🛡️ Safety-aware fallbacks
-
-📝 Transparent explanations
-
-🧾 Command execution logging
-
-🧪 Scenario simulation (Normal / Medium / High Risk)
-
-🗂️ Project Structure
+Capability	Description
+Anomaly Detection	IsolationForest-based operational risk analysis
+Multi-Agent Reasoning	Analyst, Risk, Action, Audit agents
+Safety Fallbacks	Deterministic recovery under uncertainty
+Explainability	Human-readable decision logic
+Command Interface	Mission-driven control UI
+Scenario Simulation	Normal / Medium / High risk datasets
+📁 Project Structure
 SentinelAI/
-├── backend/      # FastAPI decision engine  
-├── ui/           # Command Interface (Streamlit + React)  
-├── data/         # Demo scenarios  
+├── backend/     # FastAPI Decision Engine
+├── ui/          # Command Interface (Streamlit + React)
+├── data/        # Demo Scenarios
 └── requirements.txt
 
-🚦 Quick Start
-1️⃣ Install
+🚀 Quick Start
+Install Dependencies
 pip install -r requirements.txt
 
-2️⃣ Run Backend
+Run Backend
 uvicorn backend.main:app --reload
 
-3️⃣ Run UI
+Run UI
 streamlit run ui/app.py
 
-🧪 Run a Mission
+🎯 Execute a Mission
 
 Enter a mission brief
 
@@ -64,25 +60,25 @@ Upload a CSV from /data
 
 Click Execute Mission
 
-Review decision & issue commands
+Review decision and issue commands
 
-📈 Sample Output
-Risk Level: HIGH  
-Signals: transaction spike, frequency deviation, latency drift  
-Recommended Action: Freeze flows & escalate  
+📊 Example Output
+Risk Level: HIGH
+Signals: transaction spike, frequency deviation, latency drift
+Recommended Action: Freeze flows & escalate
 Confidence: 0.89
 
 🏢 Use Cases
 
-Financial Fraud Detection
+Financial Fraud Monitoring
 
-System & Ops Monitoring
+System & Reliability Operations
 
-Compliance Automation
+Compliance & Governance
 
-Enterprise Decision Intelligence
+Enterprise Decision Support
 
-🔍 Why SentinelAI Is Different
+🔬 Why This Matters
 
 Most AI systems predict.
 SentinelAI decides.
@@ -93,10 +89,10 @@ Governance
 
 Accountability
 
-Explainability
+Transparency
 
-Production-grade AI thinking
+Real-world AI system design
 
-📄 License
+📜 License
 
 MIT License
